@@ -25,18 +25,17 @@ const Contact = () => {
                 <span className="font-mono text-sm tracking-wide">Initiate Secure Comm</span>
               </a>
 
-              {/* Social Icons in Left Column */}
-              <div className="flex gap-4 pt-4">
-                <a href="#agabe23a" className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-white hover:border-slate-500 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(255,255,255,0.1)]">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.03c3.15-.38 6.5-1.4 6.5-7a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 5.6 3.3 6.6 6.5 7a4.8 4.8 0 0 0-1 3.03V22"/><path d="M9 20c-5 1.5-5-2.5-7-3"/></svg>
-                </a>
-                <a href="#agabe.dev" className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-blue-500 hover:border-blue-500/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59,130,246,0.3)]">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-                </a>
-                <a href="#agabe.dev" className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-cyan-400 hover:border-cyan-500/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(34,211,238,0.3)]">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z"/><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></svg>
-                </a>
-              </div>
+              {/* All 6 Social Icons */}
+            <div className="flex gap-3 flex-wrap">
+              {/* GitHub */}
+              <a href="https://github.com/agabe23a" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-white hover:border-slate-500 transition-all"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.03c3.15-.38 6.5-1.4 6.5-7a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 5.6 3.3 6.6 6.5 7a4.8 4.8 0 0 0-1 3.03V22"/><path d="M9 20c-5 1.5-5-2.5-7-3"/></svg></a>
+              
+              {/* LinkedIn */}
+              <a href="https://linkedin.com/in/agabe-ngeywo" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-blue-500 hover:border-blue-500/50 transition-all"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
+              
+              {/* X / Twitter */}
+              <a href="https://x.com/agabe17125" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-white hover:border-slate-500 transition-all"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z"/><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></svg></a>                            
+            </div>
             </div>
           </div>
 
@@ -119,11 +118,22 @@ const Contact = () => {
             
             {/* All 6 Social Icons */}
             <div className="flex gap-3 flex-wrap">
-              <a href="#agabe23a" target="_blank" className="p-2 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-white hover:border-slate-500 transition-all"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.03c3.15-.38 6.5-1.4 6.5-7a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 5.6 3.3 6.6 6.5 7a4.8 4.8 0 0 0-1 3.03V22"/><path d="M9 20c-5 1.5-5-2.5-7-3"/></svg></a>
-              <a href="#Agabe Ngeywo" target="_blank" className="p-2 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-blue-500 hover:border-blue-500/50 transition-all"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
-              <a href="#agabe17125" target="_blank" className="p-2 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-white hover:border-slate-500 transition-all"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z"/><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></svg></a>
-              <a href="#agabez" target="_blank" className="p-2 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-pink-500 hover:border-pink-500/50 transition-all"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
-              <a href="#Agabe Ngeywo" target="_blank" className="p-2 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-blue-600 hover:border-blue-600/50 transition-all"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+              {/* GitHub */}
+              <a href="https://github.com/agabe23a" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-white hover:border-slate-500 transition-all"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.03c3.15-.38 6.5-1.4 6.5-7a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 5.6 3.3 6.6 6.5 7a4.8 4.8 0 0 0-1 3.03V22"/><path d="M9 20c-5 1.5-5-2.5-7-3"/></svg></a>
+              
+              {/* LinkedIn */}
+              <a href="https://linkedin.com/in/agabe-ngeywo" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-blue-500 hover:border-blue-500/50 transition-all"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
+              
+              {/* X / Twitter */}
+              <a href="https://x.com/agabe17125" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-white hover:border-slate-500 transition-all"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z"/><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></svg></a>
+              
+              {/* Instagram */}
+              <a href="https://instagram.com/agabezs" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-pink-500 hover:border-pink-500/50 transition-all"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+              
+              {/* Facebook */}
+              <a href="https://facebook.com/agabengeywo" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-blue-600 hover:border-blue-600/50 transition-all"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+              
+              {/* Email */}
               <a href="mailto:agabe4013@gmail.com" className="p-2 bg-slate-900 rounded-lg border border-slate-800 text-slate-400 hover:text-cyan-400 hover:border-cyan-500/50 transition-all"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
             </div>
 
