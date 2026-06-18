@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* 1. Global Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 2. Custom Text Selection (Highlighting) */
+::selection {
+  background-color: rgba(6, 182, 212, 0.3); /* Neon Cyan with opacity */
+  color: #ffffff;
+}
+::-moz-selection {
+  background-color: rgba(6, 182, 212, 0.3);
+  color: #ffffff;
+}
+
+/* 3. Custom Webkit Scrollbar (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px; /* Sleek, thin scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #020617; /* Matches Tailwind slate-950 background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0891b2; /* Cyan-600 */
+  border-radius: 10px; /* Smooth rounded edges */
+  border: 2px solid #020617; /* Creates a slight padding effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #06b6d4; /* Glows brighter cyan when you hover over it */
+}
+
+/* 4. Firefox Scrollbar Support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0891b2 #020617;
+}
