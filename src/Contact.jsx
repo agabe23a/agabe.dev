@@ -14,26 +14,13 @@ const Contact = () => {
             </h2>
             <div className="h-1 w-24 bg-cyan-500 rounded-full mb-8"></div>
             <p className="text-slate-400 text-lg leading-relaxed mb-10 max-w-md">
-Building scalable digital systems that simply work.
-
-I turn ideas into reliable, high-performance software.
-
-Engineering solutions that grow with your vision.
-
-From concept to production — built right.
-
-Creating systems that perform, scale, and last.
-
-Simple ideas. Powerful execution.
-
-Code that delivers real-world results.
-
-Designing software that solves, not complicates.
-
-Where ideas meet execution.
-
-Reliable systems. Clean architecture. Real impact.
+            Transforming ambitious visions into world-class digital experiences.
             </p>
+
+            <p className="text-slate-400 text-lg leading-relaxed mb-10 max-w-md">
+              Engineered for scale. Crafted for excellence.
+            </p>
+         
 
             <div className="space-y-6">
               <a href="mailto:agabe4013@gmail.com" className="flex items-center gap-4 text-slate-300 hover:text-cyan-400 transition-colors group w-max">
