@@ -14,7 +14,25 @@ const Contact = () => {
             </h2>
             <div className="h-1 w-24 bg-cyan-500 rounded-full mb-8"></div>
             <p className="text-slate-400 text-lg leading-relaxed mb-10 max-w-md">
-              Whether you need a high-performance algorithmic trading system, a multi-tenant SaaS backend, or secure infrastructure, my inbox is open. Let's discuss your execution requirements.
+Building scalable digital systems that simply work.
+
+I turn ideas into reliable, high-performance software.
+
+Engineering solutions that grow with your vision.
+
+From concept to production — built right.
+
+Creating systems that perform, scale, and last.
+
+Simple ideas. Powerful execution.
+
+Code that delivers real-world results.
+
+Designing software that solves, not complicates.
+
+Where ideas meet execution.
+
+Reliable systems. Clean architecture. Real impact.
             </p>
 
             <div className="space-y-6">
